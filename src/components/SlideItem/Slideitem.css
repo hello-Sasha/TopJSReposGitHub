@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Grape+Nuts&family=Roboto+Mono:wght@500&family=Rubik:wght@500&family=Seymour+One&display=swap');
+.regular-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.modal-card{
+    margin-top: 56px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card_header{
+    color: var( --color-accent);
+    font-size: var(--font-size-subheader-zero);
+    line-height: var(--line-height-subheader-zero);
+    margin: 0;
+    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+}
+.card_header-modal{
+    font-size: var(--font-size-header-mobile);
+    line-height: var(--font-height-header-mobile);
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    font-weight: 700;
+}
+.card_desciption{
+    font-size: var( --font-size-text-zero);
+    line-height: var(--line-height-text-zero);
+    margin: 0;
+    margin-top:8px;
+    font-weight: 500;
+    font-family: 'Roboto Mono', monospace;
+}
+.card-text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    font-size: var(--font-size-text-zero);
+    line-height: var(--line-height-text-zero);  
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+
+.icon-small{
+    font-size: 23px;
+    color: var(--text-color-zero);
+    font-weight: 700;
+}
+
+.stat_data{
+    display: flex;
+    gap: 23px;
+    margin-top: 11px;
+}
+
+.group{
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.owner{
+    font-size: var( --font-size-text-zero);
+    line-height: var(--line-height-text-zero);
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 4px;
+}
+.link{
+    color: var(--color-accent);
+    text-decoration: none;
+}
+.link_icon_group{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.topic-group{
+    flex-wrap: wrap;
+    gap:4px;
+    display: flex;
+}
+.topic-item{
+    background-color: var(--color-accent);
+    border-radius: 8px;
+    color: #FFFFFF;
+    width: max-content;
+    height: 26px;
+    padding: 4px 8px;
+    align-items: center;
+    display: flex;
+}

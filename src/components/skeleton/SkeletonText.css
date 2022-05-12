@@ -1,0 +1,19 @@
+.skeleton-text {
+   width: 90%;
+}
+.skeleton-text__row {
+    height: var(--line-height-text-zero);
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #B5B5B5;
+    margin: 3px;
+}
+
+.subheader-class{
+    height: var(--line-height-subheader-zero);
+    background-color: var(--color-accent);
+}
+
+ 

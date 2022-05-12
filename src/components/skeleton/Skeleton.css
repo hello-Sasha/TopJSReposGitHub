@@ -1,0 +1,51 @@
+.skeleton-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skeleton-card{
+    background-color: var(--card-color-zero);
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 1;
+    align-items: center;
+    width: 100vw;
+    height: 225px;
+    
+}
+.left{
+    grid-column: 1;
+}
+.right{
+    grid-column: 3;
+}
+.skeleton-description{
+    grid-column: 2;
+
+}
+.skeleton-group{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+    gap: 6px;
+    width: 150px;
+}
+
+.stat-skeleton{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1px;
+}
+@media screen and (min-width: 700px) {
+    .skeleton-card{
+      width: 664px;
+      height:240px ;
+    }
+}
+@media screen and (min-width: 1220px) {
+    .skeleton-card{
+        width: 780px;
+        height:260px ;
+    }
+}

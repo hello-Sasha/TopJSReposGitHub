@@ -1,0 +1,59 @@
+.modal-container{
+    display: flex;
+    align-items: center;
+}
+
+
+.modal{
+    background-color: var(--card-color-zero);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left:0;
+    top:0;
+}
+
+.icon-close{
+    position: absolute;
+    right: 22px;
+    top:22px;
+    font-size: var(--font-size-header-mobile);
+    font-weight: 900;
+    font-style: bold;
+}
+
+@media screen and (min-width: 700px) {
+    .icon-close{
+        right: 43px;
+        top:53px;
+    }
+}
+@media screen and (min-width: 1220px) {
+    .icon-close{
+        right: 23px;
+        top:23px;
+    }
+    .modal{
+        width: 724px;
+        height: 421px;
+        top:50%; 
+        left:50%; 
+        transform:translate(-50%, -50%); 
+        background-color: var(--backgroung-zero);
+        opacity: 1;
+        position: absolute;
+        z-index: 10;
+    }
+    .screen{
+        background-color: var(--backgroung-modal-screen-zero);
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        left:0;
+        top:0;
+        opacity: 0.9;
+        position: absolute;
+        z-index: 1;
+    }
+}
+   

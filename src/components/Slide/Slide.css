@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: var(--card-color-zero);
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 1;
+    align-items: center;
+    width: 100vw;
+    height: 225px;
+} 
+
+/* .icon{
+    font-size: var(--font-size-header-zero);
+    color: var(--text-color-zero);
+    grid-row: 1;
+    justify-self: center;
+} */
+.left{
+    grid-column: 1;
+}
+.right{
+    grid-column: 3;
+}
+.repoDetails{
+    grid-column: 2;
+    grid-row: 1;
+    height: 100%;
+    align-self: bottom;
+    /* padding: 20px; */
+}
+@media screen and (min-width: 360px) {
+    /*  */
+}
+@media screen and (min-width: 700px) {
+    .card{
+      width: 664px;
+      height:240px ;
+    }
+}
+@media screen and (min-width: 1220px) {
+    .card{
+        width: 780px;
+        height:260px ;
+    }
+}
